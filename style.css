@@ -1,0 +1,108 @@
+*{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h1,h2,h3{
+    
+    color: rgb(53, 50, 50);
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}  
+
+a{
+    text-decoration: none;
+    color: inherit;
+    color: rgb(148, 143, 143);
+}
+
+aside{
+
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+    width: 40%;
+    margin-right: 300px;
+
+
+
+}
+section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 60%;
+    margin-left: 400px ;
+}
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+.logo{
+    margin-left: 400px ;
+    margin-bottom: 50px;
+    display: inline-block;
+    justify-content: start;
+}
+.nav{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-bottom: 60px;
+
+}
+.immagineaside{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    align-items: end;
+}
+.immaginesection{
+    width: 307px;
+    height: 172px;
+    display: inline-block;
+    align-items: start;
+    
+}
+.corsi{
+    margin: 20px;
+    
+
+}
+.perchè{
+    margin: 20px;
+    
+}
+.guide{
+    margin: 20px;
+    
+}
+.blog{
+    margin: 20px;
+    
+}
+.lavora{
+    margin: 20px;
+    
+}
+.sei{
+    margin: 20px;
+    
+}
